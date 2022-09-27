@@ -1,0 +1,151 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.card {
+  padding: 2em;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+/* 全て共通 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; 
+  overflow-wrap: break-word;
+  word-wrap: break-word; 
+}
+
+/* bodyタグ */
+body {
+  text-align: center; /* 全ての要素を真ん中に */
+  padding: 50px 0; /* 上下の空白を指定 */
+  display: flex;
+  flex-direction: column;
+}
+
+.mainVisual{
+  height: 100px;
+}
+
+/* h1タグ */
+h1 {
+  padding: 30px 0; 
+}
+
+/* h2タグ */
+h2 {
+  background-color: #F89174; /* 背景色を指定 */
+  color: #ffffff; /* フォントカラーを指定 */
+  width: 600px; /* 横幅を指定 */
+  padding: 5px 0; /* 上下の空白を指定 */
+  margin: 20px auto; /* 上下の空白と真ん中に寄せる指定 */
+}
+
+/* h3タグ */
+h3 {
+  background-color: #F5F5F5; /* 枠線を指定 */
+  width: 600px; 
+  padding: 5px 0;
+  margin: 20px auto; 
+}
+
+/* pタグ */
+p {
+ font-size: 14px; /* フォントサイズを指定 */
+}
+
+/* ulタグの指定 */
+ul {
+  border: 3px solid #F5F5F5;
+  width: 600px;
+  padding: 10px 0;
+  margin: 20px auto;
+}
+
+li {
+  list-style: none; /* リストの表示方法を指定 */
+  padding: 5px 0;
+}
